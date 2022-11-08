@@ -3,7 +3,7 @@
 nav {
     display: flex;
     background-color: var(--color-nav-bg);
-    padding: 14px 30px;
+    padding: 12px;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: space-between;

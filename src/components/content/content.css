@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+#content {
+    font-family: 'Work Sans', sans-serif;
+    width: 95%;
+    margin: 35px 2.5%;    
+}
+
+#top, #table-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#table-top {
+    margin-bottom: 10px;
+}
+
+#content h1 {
+    margin-bottom: -10px;
+    font-size: 500;
+    font-size: 24px;
+}
+
+#content p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#content button {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.categories, .category {
+    display: flex;
+    align-items: center;
+}
+
+.categories {
+    gap: 5px;
+}
+
+.category {
+    padding: 10px;
+    gap: 5px;
+}
+
+.category div {
+    padding: 0 10px;
+    color: var(--color-white);
+    border-radius: 20px;
+    background-color: var(--color-green);
+}
+
+.type-1 {
+    background-color: var(--color-green-variant);
+    color: var(--color-green);
+    font-weight: 500;
+}
+
+.type-1 div {
+    background-color: var(--color-green);
+}
+
+.type-2 div {
+    background-color: var(--color-orange);
+}
+
+table {
+    border-collapse: collapse;
+    border-left: 1px solid var(--color-gray);
+    border-right: 1px solid var(--color-gray);
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+tr {
+    border-top: 1px solid var(--color-gray);
+    border-bottom: 1px solid var(--color-gray);
+}
+
+th {
+    padding: 25px 10px;
+    font-size: smaller;
+}
+
+td, th {
+    padding: 10px;
+    height: 30px;
+}
+
+.null-row {
+    width: 200px;
+}
+
+.sent-through {
+    padding: 10px;
+}
