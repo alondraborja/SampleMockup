@@ -3,14 +3,16 @@
 nav {
     display: flex;
     background-color: var(--color-nav-bg);
-    padding: 12px;
+    padding: 12px 25px;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: space-between;
 }
 
 .left {
+    display: flex;
     align-items: center;
+    justify-items: center;
 }
 
 nav img {
@@ -18,16 +20,14 @@ nav img {
     margin-right: 15px;
 }
 
-#vl {
-    height: 10px;
-    width: 20px;
-    color: var(--color-gray);
-    display: block;
+.vertical {
+    border-left: 2px solid #4B4B4B;
+    height: 40px;
 }
 
 nav #hr {    
-    font-size: 42px;
-    padding-bottom: 20px;
+    margin-left: 10px;
+    font-size: 38px;
 }
 
 nav a {
@@ -36,14 +36,41 @@ nav a {
     cursor: pointer;
 }
 
+.right {
+    display: flex;
+    align-items: center;
+}
+
 .right a, #dot {
     margin-right: 20px;
     color: var(--color-gray);
 }
 
+.right a:hover, .employee-search input:hover, #admin:hover{
+    color: var(--color-green);
+}
+
+.employee-search input {
+    outline: 0;
+    background: none;
+    border-width: 0 0 2px;
+    border-color: var(--color-gray);
+    padding: 8px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 140px;
+    margin-right: 20px;
+    color: var(--color-gray);
+}
+
+.employee-search input:hover {
+    border-color: var(--color-green);
+}
+
 #dot {
     background-color: var(--color-gray);
-    width: 100px;
+    width: 25px;
     height: 25px;
     border-radius: 50%;
     cursor: pointer;
@@ -52,4 +79,3 @@ nav a {
 #admin {
     color: var(--color-blue);
 }
-

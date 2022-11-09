@@ -1,6 +1,7 @@
 :root {
   --color-nav-bg: #333333;
   --color-white: #fff;
+  --color-black: #000;
   --color-gray: #bbb;
   --color-blue: #2FB5CD;
   --color-green: #17AD49;
@@ -22,5 +23,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 
